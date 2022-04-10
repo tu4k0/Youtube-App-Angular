@@ -1,0 +1,61 @@
+.content
+  position: absolute
+  left: 240px
+  top: 80px
+  width: calc(100% - 240px)
+  height: 90vh
+  background: #181818
+  color: white
+
+.content .videos
+  display: flex
+  flex-wrap: wrap
+  margin: 32px 0 0 20px
+
+.content .videos .video
+  width: 250px
+  height: 240px
+  margin: 0 17px 30px 18px
+  cursor: pointer
+
+.content .videos .video .thumbnail
+  width: 100%
+  height: 144px
+  position: relative
+
+.content .videos .video .thumbnail img
+  width: 100%
+  height: 100%
+
+.content .videos .video .thumbnail .minit
+  position: absolute
+  right: 5px
+  bottom: 5px
+  color: white
+  background: #222
+  padding: 2px 3px
+  border-radius: 3px
+  width: auto
+  height: 25px
+
+.content .videos .video .video-info
+  display: flex
+  margin: 10px 0
+
+.content .videos .video .video-info .user img
+  width: 40px
+  cursor: pointer
+  margin: 0 10px 0 2px
+
+.content .videos .video .video-info .text
+  display: flex
+  flex-direction: column
+  color: rgba(255,255,255,0.5)
+
+.content .videos .video .video-info .text .title
+  color: white
+  margin-bottom: 5px
+
+.content .videos .video .video-info .text .views::after
+  content: "•"
+  margin: 0 4px
